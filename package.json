@@ -8,8 +8,10 @@
     "browser-sync": "3.0.2",
     "gulp": "5.0.0",
     "gulp-dart-sass": "^1.1.0",
+    "gulp-livereload": "^4.0.2",
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "10.0.0",
+    "livereload": "^0.9.3",
     "postcss": "8.4.38",
     "stylelint": "16.5.0",
     "stylelint-config-htmlacademy": "4.2.1"
