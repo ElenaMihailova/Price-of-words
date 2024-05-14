@@ -8,8 +8,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-  border-radius: 12px;
 }
 
 .navigation__item {
@@ -17,7 +15,15 @@
   background-color: var(--background-color);
 }
 
+.navigation__item:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
 
+.navigation__item:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
 
 .navigation__link {
   display: block;
