@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav {
+  width: 67%;
+  align-self: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.05);
+}
+
+.footer-nav__list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-nav__item {
+  flex: 1;
+  padding: 10px;
+  border-right: 2px solid var(--secondary-color-opacity);
+}
+
+.footer-nav__item:last-child {
+  border: none;
+}
+
+.footer-nav__link {
+  display: block;
+}
