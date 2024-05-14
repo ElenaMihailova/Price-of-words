@@ -4,12 +4,12 @@
   "description": "Price of words",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "3.0.0",
-    "autoprefixer": "10.4.19",
-    "browser-sync": "3.0.2",
-    "gulp": "5.0.0",
+    "autoprefixer": "^10.4.19",
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
     "gulp-livereload": "^4.0.2",
-    "gulp-plumber": "1.2.1",
-    "gulp-postcss": "10.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
     "livereload": "^0.9.3",
     "postcss": "8.4.38",
     "stylelint": "16.5.0",
@@ -35,7 +35,7 @@
     "source/*.html",
     "source/js/**/*.js",
     "source/img/**/*.svg",
-    "source/sass/**/*.scss"
+    "source/css/**/*.css"
   ],
   "engines": {
     "node": "^16"

@@ -3,129 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Price of words</title>
   </head>
   <body>
-    <header>
-      <div>
-        <div>
-          <a href="/">
-            <img src="./assets/logo.png" alt="Logo" />
-          </a>
+    <div class="container">
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__content">
+            <div class="user-info">
+              <div class="logo">
+                <a href="/" class="logo__link">
+                  <img src="./assets/logo.png" alt="Logo" />
+                </a>
+              </div>
+              <a href="/">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#ask"></use>
+                </svg>
+                <p>Часто задаваемые вопросы</p>
+              </a>
+            </div>
+
+            <nav>
+              <ul>
+                <li>
+                  <a href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#message"></use>
+                    </svg>
+                    <p>Сообщения</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#water"></use>
+                    </svg>
+                    <p>Вода</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#apple"></use>
+                    </svg>
+                    <p>Питание</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#report"></use>
+                    </svg>
+                    <p>Отчеты</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#workout"></use>
+                    </svg>
+                    <p>Тренировки</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#setting"></use>
+                    </svg>
+                    <p>Настройки</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#rules"></use>
+                    </svg>
+                    <p>Правила</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
 
-      <div>
-        <a href="/">
-          <svg viewBox="0 0 24 24" width="24" height="24">
-            <use href="./assets/sprite.svg#ask"></use>
-          </svg>
-          <p>Часто задаваемые вопросы</p>
-        </a>
-      </div>
-
-      <nav>
-        <ul>
-          <li>
-            <a href="/">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#message"></use>
-              </svg>
-              <p>Сообщения</p>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#water"></use>
-              </svg>
-              <p>Вода</p>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#apple"></use>
-              </svg>
-              <p>Питание</p>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#report"></use>
-              </svg>
-              <p>Отчеты</p>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#workout"></use>
-              </svg>
-              <p>Тренировки</p>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#setting"></use>
-              </svg>
-              <p>Настройки</p>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#rules"></use>
-              </svg>
-              <p>Правила</p>
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <div>
-        <h2>Ваша суточная калорийность:</h2>
-        <p>1845 ккал</p>
-        <a>Рекомендации по питанию</a>
-      </div>
-    </header>
-    <main>Content</main>
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <a href="/" aria-label="Написать сообщение">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#table"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="/" aria-label="Вернуться к началу">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#home"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="/" aria-label="Отчеты всех, на кого я подписан">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#user"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="/" aria-label="Отчеты участников марафона">
-              <svg viewBox="0 0 24 24" width="24" height="24">
-                <use href="./assets/sprite.svg#partners"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
+        <div>
+          <h2>Ваша суточная калорийность:</h2>
+          <p>1845 ккал</p>
+          <a>Рекомендации по питанию</a>
+        </div>
+      </header>
+      <main>Content</main>
+      <footer class="footer">
+        <nav>
+          <ul>
+            <li>
+              <a href="/" aria-label="Написать сообщение">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#table"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="/" aria-label="Вернуться к началу">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#home"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="/" aria-label="Отчеты всех, на кого я подписан">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#user"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="/" aria-label="Отчеты участников марафона">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#partners"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
