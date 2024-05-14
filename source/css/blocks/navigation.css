@@ -1,0 +1,47 @@
+@import '../variables.css';
+
+.navigation {
+  width: 100%;
+}
+
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  border-radius: 12px;
+}
+
+.navigation__item {
+  flex: 1;
+  background-color: var(--background-color);
+}
+
+
+
+.navigation__link {
+  display: block;
+  padding: 17px;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  svg {
+    stroke: var(--secondary-color);
+  }
+}
+
+.navigation__item--active {
+  background-color: var(--secondary-color);
+
+  p {
+    color: var(--background-color);
+  }
+
+  svg {
+    stroke: var(--background-color);
+  }
+}

@@ -6,6 +6,9 @@
 @import './blocks/header/header.css';
 @import './blocks/footer/footer.css';
 @import './blocks/user.css';
+@import './blocks/logo.css';
+@import './blocks/navigation.css';
+@import './blocks/button.css';
 
 
 

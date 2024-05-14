@@ -1,0 +1,12 @@
+.button {
+  color: var(--background-color);
+  background: linear-gradient(#f06163 0%, #bd2b98 60%, #6034a8 88%);
+  display: block;
+  padding: 17px 40px;
+  border-radius: 100px;
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+  max-width: 313px;
+}

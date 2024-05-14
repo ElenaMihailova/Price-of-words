@@ -1,5 +1,26 @@
 .user-info {
-  width: 100%;
+  background-color: var(--background-color);
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
+  padding: 28px;
+  margin-top: -80px;
+}
+
+.user-info__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.user-info__count {
+  margin: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.user-info__advice {
+  margin-left: 20px;
 }
