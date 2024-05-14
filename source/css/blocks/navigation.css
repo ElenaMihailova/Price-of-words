@@ -36,7 +36,7 @@
   }
 
   svg {
-    stroke: var(--secondary-color);
+    fill: var(--secondary-color);
   }
 }
 
@@ -48,6 +48,6 @@
   }
 
   svg {
-    stroke: var(--background-color);
+    fill: var(--background-color);
   }
 }
