@@ -1,15 +1,13 @@
 import gulp from 'gulp';
 import plumber from 'gulp-plumber';
-import sass from 'gulp-dart-sass';
 import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
 import browser from 'browser-sync';
 
 // Styles
 export const styles = () => {
-  return gulp.src('source/sass/style.scss', { sourcemaps: true })
+  return gulp.src('source/css/style.css', { sourcemaps: true })
     .pipe(plumber())
-    .pipe(sass().on('error', sass.logError))
     .pipe(postcss([
       autoprefixer()
     ]))
@@ -32,7 +30,7 @@ const server = (done) => {
 
 // Watcher
 const watcher = () => {
-  gulp.watch('source/sass/**/*.scss', gulp.series(styles));
+  gulp.watch('source/sass/**/*.css', gulp.series(styles));
   gulp.watch('source/*.html').on('change', browser.reload);
   gulp.watch('source/js/**/*.js').on('change', browser.reload); 
 }
