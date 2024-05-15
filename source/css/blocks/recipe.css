@@ -1,5 +1,14 @@
-.recipe {
+.recipe__card {
   background-color: var(--background-color);
+  /* background-color: aquamarine; */
   border-radius: var(--border-radius);
   padding: 28px;
 }
+
+.recipe__title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 20px;
+}
+

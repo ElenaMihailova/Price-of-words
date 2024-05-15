@@ -2,8 +2,8 @@
   background-color: var(--background-color);
 
   padding: 20px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
+   text-align: center;
+  /* position: fixed;   */
+  bottom: 0; 
   width: 100%;
 }

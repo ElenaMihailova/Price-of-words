@@ -119,4 +119,8 @@
     </defs>
   </symbol>
 
+      <symbol id="icon-heart" viewBox="0 0 20 20">
+        <path d="M10.006 17.6895L2.18543 10.6057C-2.06487 6.35541 4.18306 -1.80515 10.006 4.79696C15.8288 -1.80515 22.0485 6.38375 17.8265 10.6057L10.006 17.6895Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
 </svg>

@@ -217,11 +217,103 @@
             </button>
           </div>
         </section>
-        <section>
-          <div>
-            <h3>Вариант #1</h3>
+
+        <section class="wrapper">
+          <div class="recipe">
+            <h3 class="recipe__title">Вариант #<span>1</span></h3>
+
+            <div class="recipe__card card">
+              <div class="card__name">
+                <p class="card__type">Завтрак</p>
+                <ol class="card__list">
+                  <li>Сырники</li>
+                  <li>Морковный салат</li>
+                </ol>
+                <button class="card__favorite" name="favorite" type="button">
+                  <svg width="20" height="20">
+                    <use href="./assets/sprite.svg#icon-heart"></use></svg
+                  >Добавить в избранное
+                </button>
+              </div>
+
+              <div class="card__video">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/xNN7iTA57jM?si=Yd3RLwwqff9AUvcF"
+                  title="Сырники"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <ul class="">
+                <li>
+                  <p>Белки</p>
+                  <p>Жиры</p>
+                  <p>Углеводы</p>
+                </li>
+              </ul>
+
+              <div>
+                <p>Вам понадобится:</p>
+                <ol>
+                  <li>
+                    <p>Морковь</p>
+                    <p>79 <span> гр.</span></p>
+                  </li>
+                  <li>
+                    <p>Морковь</p>
+                    <p>79 <span> гр.</span></p>
+                  </li>
+                  <li>
+                    <p>Морковь</p>
+                    <p>79 <span> гр.</span></p>
+                  </li>
+                </ol>
+                <div>
+                  <p>Порций:</p>
+                  <div class="counter-container">
+                    <button id="decrement" class="counter__button">-</button>
+                    <span id="counter-value" class="counter__value">0</span>
+                    <button id="increment" class="counter__button">+</button>
+                  </div>
+
+                  <button class="button">Добавить в корзину</button>
+                  <p>
+                    Количество порций для продуктовой корзины можно изменить в
+                    самой продуктовой корзине.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Из&nbsp;овсянки сделать муку (или взять готовую).Творог,
+                    яйца, муку смешать, добавить сахзам по&nbsp;вкусу, запекать
+                    в&nbsp;духовке 25&ndash;30&nbsp;мин. Йогурт смешать
+                    с&nbsp;ягодами, подать к&nbsp;сырникам (готовые сырники
+                    можно хранить в&nbsp;морозильной камере).
+                  </p>
+                  <p>
+                    Из&nbsp;овсянки сделать муку (или взять готовую).Творог,
+                    яйца, муку смешать, добавить сахзам по&nbsp;вкусу, запекать
+                    в&nbsp;духовке 25&ndash;30&nbsp;мин. Йогурт смешать
+                    с&nbsp;ягодами, подать к&nbsp;сырникам (готовые сырники
+                    можно хранить в&nbsp;морозильной камере).
+                  </p>
+
+                  <div>
+                    <p>Калорийность порции:</p>
+                    <p>492 <span>ккал.</span></p>
+                  </div>
+                  <div>
+                    <p>Вес порции:</p>
+                    <p>385.5<span> гр.</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="recipe">1. Сырники. 2. Морковный салат.</div>
         </section>
       </main>
 
