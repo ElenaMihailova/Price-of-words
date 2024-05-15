@@ -11,6 +11,7 @@
 .navigation__item {
   flex: 1;
   background-color: var(--background-color);
+  padding: 7px;
 }
 
 .navigation__item:first-child {
@@ -25,7 +26,8 @@
 
 .navigation__link {
   display: block;
-  padding: 17px;
+  padding: 10px;
+
 
   p {
     margin: 0;

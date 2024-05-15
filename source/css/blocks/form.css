@@ -25,6 +25,7 @@
   -moz-appearance: none;
   appearance: none;
   font-family: var(--font-family);
+  cursor: pointer;
 }
 
 .form select:focus {
