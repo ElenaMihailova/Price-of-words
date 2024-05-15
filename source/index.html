@@ -103,9 +103,38 @@
           <a class="user-info__advice button">Рекомендации по питанию</a>
         </div>
       </header>
-      <main>Content</main>
+
+      <main class="main">
+        <h1 class="visually-hidden">Проект Цена слова</h1>
+
+        <section class="wrapper">
+          <div class="filter">
+            <h2 class="visually-hidden">Форма фильтрации</h2>
+            <form class="filter__form form">
+              <label for="menu">
+                Тип меню:
+              </label>
+              <select id="menu" name="menu" aria-describedby="menu-help">
+                <option value="All">Все рецепты</option>
+                <option value="Selected">Избранные рецепты</option>
+              </select>
+              <span id="menu-help" class="visually-hidden"
+                >Выбор варианта меню</span
+              >
+            </form>
+          </div>
+        </section>
+        <section>Button groupe</section>
+        <section>
+          <div>
+            <h3>Вариант #1</h3>
+          </div>
+          <div class="recipe">1. Сырники. 2. Морковный салат.</div>
+        </section>
+      </main>
+
       <footer class="footer">
-        <nav class="footer-nav">
+        <nav class="wrapper footer-nav">
           <ul class="footer-nav__list">
             <li class="footer-nav__item">
               <a

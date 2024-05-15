@@ -1,0 +1,7 @@
+@import '../variables.css';
+
+.recipe {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  padding: 28px;
+}

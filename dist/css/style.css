@@ -1,15 +1,21 @@
 /* Global */
 @import './global/fonts.css';
 @import './global/reboot.css';
+@import './global/container.css';
 
 /* Blocks */
 @import './blocks/header/header.css';
 @import './blocks/footer/footer.css';
+@import './blocks/wrapper.css';
+@import './blocks/main.css';
 @import './blocks/user.css';
 @import './blocks/logo.css';
 @import './blocks/navigation.css';
 @import './blocks/button.css';
 @import './blocks/footer/footer-nav.css';
+@import './blocks/filter.css';
+@import './blocks/recipe.css';
+@import './blocks/form.css';
 
 
 
