@@ -15,7 +15,7 @@
 .form input {
   width: 100%;
   padding: 17px 25px;
-  border: 1px solid var(--secondary-color-opacity);
+  border: 1px solid var(--secondary-color-opacity-01);
   border-radius: 100px;
   font-size: 15px;
   font-weight: 500;
@@ -28,10 +28,11 @@
   cursor: pointer;
 }
 
-.form select:focus {
+.form select:focus,
+.form input:focus {
   border-color: var(--secondary-color);
   outline: none;
-  box-shadow: 0 0 5px var(--secondary-color-opacity);
+  box-shadow: 0 0 15px var(--secondary-color-opacity-01);
 }
 
 .form__groupe {
