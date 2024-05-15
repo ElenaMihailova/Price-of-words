@@ -1,0 +1,16 @@
+.options {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.options button {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.options button:last-child {
+  margin-right: 0px;
+}
