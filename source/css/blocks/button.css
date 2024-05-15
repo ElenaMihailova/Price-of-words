@@ -10,6 +10,9 @@
   font-weight: 800;
   max-width: 313px;
   transition: background 0.5s ease;
+  border: none;
+  font-family: var(--font-family);
+  font-size: 15px;
 }
 
 .button:hover {

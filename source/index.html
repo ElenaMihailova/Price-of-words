@@ -111,16 +111,85 @@
           <div class="filter">
             <h2 class="visually-hidden">Форма фильтрации</h2>
             <form class="filter__form form">
-              <label for="menu">
-                Тип меню:
-              </label>
-              <select id="menu" name="menu" aria-describedby="menu-help">
-                <option value="All">Все рецепты</option>
-                <option value="Selected">Избранные рецепты</option>
-              </select>
-              <span id="menu-help" class="visually-hidden"
-                >Выбор варианта меню</span
-              >
+              <div class="form__groupe">
+                <label for="menu">
+                  Тип меню:
+                </label>
+                <div class="select-wrapper">
+                  <select id="menu" name="menu" aria-describedby="menu-help">
+                    <option value="All">Все рецепты</option>
+                    <option value="Selected">Избранные рецепты</option>
+                  </select>
+                  <span id="menu-help" class="visually-hidden"
+                    >Выбор варианта меню</span
+                  >
+                </div>
+              </div>
+
+              <div class="form__groupe">
+                <label for="time">
+                  Время приготовления:
+                </label>
+                <div class="select-wrapper">
+                  <select id="time" name="time" aria-describedby="time-help">
+                    <option value="All">Любое время</option>
+                    <option value="15">10-15 минут</option>
+                  </select>
+                  <span id="time-help" class="visually-hidden"
+                    >Выбор времени приготовления</span
+                  >
+                </div>
+              </div>
+
+              <div class="form__groupe">
+                <label for="time">
+                  Цена:
+                </label>
+                <div class="select-wrapper">
+                  <select id="price" name="price" aria-describedby="price-help">
+                    <option value="All">Любая цена</option>
+                    <option value="Available">Доступное меню</option>
+                  </select>
+                  <span id="time-price" class="visually-hidden"
+                    >Выбор цены</span
+                  >
+                </div>
+              </div>
+
+              <div class="form__groupe">
+                <label for="meal">
+                  Время приема пищи:
+                </label>
+                <div class="select-wrapper">
+                  <select id="meal" name="meal" aria-describedby="meal-help">
+                    <option value="All">Все варианты</option>
+                    <option value="Available">Завтрак</option>
+                  </select>
+                  <span id="meal-price" class="visually-hidden"
+                    >Выбор времени приема пищи</span
+                  >
+                </div>
+              </div>
+
+              <div class="form__groupe">
+                <label for="search">Поиск:</label>
+                <div class="select-wrapper select-wrapper--input">
+                  <input
+                    type="search"
+                    id="search"
+                    name="search"
+                    placeholder="Введите название рецепта"
+                    aria-describedby="search-help"
+                  />
+                  <span id="search-help" class="visually-hidden"
+                    >Введите запрос для поиска рецептов</span
+                  >
+                </div>
+              </div>
+
+              
+                <button type="submit" class="button">показать рецепты</button>
+              
             </form>
           </div>
         </section>

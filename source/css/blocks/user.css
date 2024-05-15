@@ -1,11 +1,10 @@
-@import '../variables.css';
-
 .user-info {
   background-color: var(--background-color);
   border-radius: var(--border-radius);
   display: flex;
   justify-content: space-between;
   padding: 28px;
+  padding-bottom: 18px;
   margin-top: -80px;
   box-shadow: var(--box-shadow);
 }

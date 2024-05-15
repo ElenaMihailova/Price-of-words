@@ -1,5 +1,3 @@
-@import '../variables.css';
-
 .filter {
   background-color: var(--background-color);
   border-radius: var(--border-radius);

@@ -1,9 +1,6 @@
-@import '../variables.css';
-
 .form {
   display: flex;
   flex-direction: column;
-
 }
 
 .form label {
@@ -14,7 +11,8 @@
   margin-bottom: 5px;
 }
 
-.form select {
+.form select,
+.form input {
   width: 100%;
   padding: 17px 25px;
   border: 1px solid var(--secondary-color-opacity);
@@ -26,16 +24,16 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-/* 
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  background-size: 12px 6px;
-  transition: border-color 0.3s ease; */
+  font-family: var(--font-family);
 }
 
-.filter select:focus {
+.form select:focus {
   border-color: var(--secondary-color);
   outline: none;
   box-shadow: 0 0 5px var(--secondary-color-opacity);
+}
+
+.form__groupe {
+  margin-bottom: 18px;
 }
 
