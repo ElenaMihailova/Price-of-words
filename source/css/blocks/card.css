@@ -1,4 +1,6 @@
 .card {
+  box-shadow: var(--box-shadow);
+  margin-bottom: 20px;
 }
 
 .card__name {

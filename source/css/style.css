@@ -21,6 +21,10 @@
 @import './blocks/select.css';
 @import './blocks/options.css';
 @import './blocks/card.css';
+@import './blocks/description.css';
+@import './blocks/portion.css';
+@import './blocks/counter.css';
+@import './blocks/steps.css';
 
 
 

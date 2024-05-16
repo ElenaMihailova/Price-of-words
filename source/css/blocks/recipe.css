@@ -1,6 +1,5 @@
 .recipe__card {
   background-color: var(--background-color);
-  /* background-color: aquamarine; */
   border-radius: var(--border-radius);
   padding: 28px;
 }

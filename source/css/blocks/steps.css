@@ -1,0 +1,25 @@
+.steps {
+  padding: 20px;
+  background-color: var(--secondary-color-opacity-05);
+  border-radius: var(--border-radius);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.steps p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.steps__energy,
+.steps__weight {
+  color: var(--secondary-color);
+  display: flex;
+  margin-bottom: 0;
+}
+
+.steps__energy p,
+.steps__weight p {
+  margin-bottom: 0;
+}

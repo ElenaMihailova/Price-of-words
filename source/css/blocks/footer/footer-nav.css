@@ -21,17 +21,24 @@
 .footer-nav__link {
   display: block;
   padding: 15px;
-  transition: background-color 0.5s ease; ;
+  transition: background-color 0.5s ease;
 }
 
 .footer-nav__link:hover {
   background-color: var(--secondary-color);
 
   svg {
-    stroke: var(--text-color-light)
+    stroke: var(--text-color-light);
   }
 }
 
-.footer-nav__item svg{
+.footer-nav__list .footer-nav__item:first-child .footer-nav__link:hover {
+  border-top-left-radius: var(--border-radius);
+}
+.footer-nav__list .footer-nav__item:last-child .footer-nav__link:hover {
+  border-top-right-radius: var(--border-radius);
+}
+
+.footer-nav__item svg {
   stroke: var(--secondary-color);
 }
