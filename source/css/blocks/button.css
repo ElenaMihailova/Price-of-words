@@ -1,6 +1,6 @@
 .button {
-  color: var(--background-color);
-  background: linear-gradient(#f06163 0%, #bd2b98 60%, #6034a8 88%);
+  color: var(--text-color-light);
+  background: linear-gradient(var(--gradient));
   display: block;
   padding: 17px 40px;
   border-radius: var(--border-radius-button);
@@ -23,7 +23,7 @@
 .button--transparent {
   position: relative;
   background: transparent;
-  color: var(--primary-color);
+  color: var(--text-color);
   transition: color 0.5s ease;
 }
 
@@ -34,13 +34,13 @@
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: linear-gradient(180deg, #f06163 0%, #bd2b98 60%, #6034a8 88%);
+  background: linear-gradient(180deg, var(--gradient));
   z-index: -1;
   border-radius: var(--border-radius-button);
 }
 
 .button--transparent:hover {
-  color: var(--background-color);
+  color: var(--text-color-light);
 }
 
 .button--transparent::after {

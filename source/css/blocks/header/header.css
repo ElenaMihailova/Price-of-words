@@ -12,7 +12,7 @@
   border-bottom-right-radius: 60px;
   padding-top: 40px;
   padding-bottom: 100px;
-  color: var(--background-color);
+  color: var(--text-color-light);
   display: flex;
   justify-content: center;
 
@@ -26,7 +26,7 @@
 .header__help {
   display: flex;
   align-items: center;
-  color: var(--background-color);
+  color: var(--text-color-light);
   font-size: 14px;
 
   p {

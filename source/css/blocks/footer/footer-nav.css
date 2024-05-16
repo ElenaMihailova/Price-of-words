@@ -28,7 +28,7 @@
   background-color: var(--secondary-color);
 
   svg {
-    stroke: var(--background-color)
+    stroke: var(--text-color-light)
   }
 }
 

@@ -20,7 +20,7 @@ html {
   font-weight: 400;
   font-size: 15px;
   line-height: 100%;
-  color: var(--primary-color);
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -35,14 +35,14 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--primary-color);
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ textarea {
 input:-webkit-autofill {
   box-shadow: inset 0 0 0 1000px var(--background-color);
 
-  -webkit-text-fill-color: var(--primary-color);
+  -webkit-text-fill-color: var(--text-color);
 }
 
 input,

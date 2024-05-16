@@ -44,10 +44,10 @@
   background-color: var(--secondary-color);
 
   p {
-    color: var(--background-color);
+    color: var(--text-color-light);
   }
 
   svg {
-    fill: var(--background-color);
+    fill: var(--text-color-light);
   }
 }
