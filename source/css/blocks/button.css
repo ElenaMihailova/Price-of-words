@@ -58,8 +58,26 @@
 }
 
 .button svg {
-  width: 24px; 
-  height: 24px; 
+  width: 24px;
+  height: 24px;
   flex-shrink: 0;
   margin-right: 10px;
+}
+
+.button--exclude {
+  background: var(--secondary-color-opacity-05);
+  color: var(--secondary-color);
+  text-transform: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.button--exclude:hover {
+  color: var(--text-color-light);
+}
+
+.button--exclude svg {
+  transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
 }

@@ -100,7 +100,9 @@
             <p class="user-info__count">1845 ккал</p>
           </div>
 
-          <a class="user-info__advice button">Рекомендации по питанию</a>
+          <a class="user-info__advice button" id="openModalBtn"
+            >Рекомендации по питанию</a
+          >
         </div>
       </header>
 
@@ -266,11 +268,11 @@
                 <ol class="description__list">
                   <li>
                     <span>Морковь</span>
-                    <span>79<span>&nbspгр.</span></span>
+                    <span>79<span>&nbsp;гр.</span></span>
                   </li>
                   <li>
                     <span>Изюм</span>
-                    <span>12<span>&nbspгр.</span></span>
+                    <span>12<span>&nbsp;гр.</span></span>
                   </li>
                   <li>
                     <span>
@@ -281,11 +283,11 @@
                       Duis aute irure dolor in reprehenderit in voluptate velit
                       esse cillum dolore eu fugiat nulla pariatur.
                     </span>
-                    <span>8<span>&nbspгр.</span></span>
+                    <span>8<span>&nbsp;гр.</span></span>
                   </li>
                   <li>
                     <span>Ягоды</span>
-                    <span>3<span>&nbspгр.</span></span>
+                    <span>3<span>&nbsp;гр.</span></span>
                   </li>
                 </ol>
                 <div class="card__portion portion">
@@ -338,11 +340,11 @@
                   <div class="steps__energy">
                     <p>
                       Калорийность порции: <span>492</span
-                      ><span>&nbspккал.</span>
+                      ><span>&nbsp;ккал.</span>
                     </p>
                   </div>
                   <div class="steps__weight">
-                    <p>Вес порции: <span>385.5</span><span>&nbspгр.</span></p>
+                    <p>Вес порции: <span>385.5</span><span>&nbsp;гр.</span></p>
                   </div>
                 </div>
               </div>
@@ -402,5 +404,40 @@
         </nav>
       </footer>
     </div>
+
+    <div id="modal" class="modal">
+      <div class="modal__content">
+        <section class="wrapper recommendation">
+          <hr />
+          <p>
+            Мы рекомендуем разделить ее на 5 приемов пищи: завтрак, обед, ужин и
+            2 перекуса. В остальные приемы пищи - рекомендуем придерживаться
+            нашего меню. В нем вес всех продуктов в блюдах указаны в сыром/cуxом
+            виде (до приготовления).
+          </p>
+          <h2>
+            Вы можете заменить определенный прием пищи на свой, при соблюдении
+            кбжу.
+          </h2>
+          <h3>Фрукты:</h3>
+          <ul>
+            <li>Зелёное яблоко 120-150 г или одно яблоко среднего размера;</li>
+            <li>Зелёное яблоко 120-150 г или одно яблоко среднего размера;</li>
+            <li>Зелёное яблоко 120-150 г или одно яблоко среднего размера;</li>
+          </ul>
+          <div class="recommendation__wrap">
+            <button class="button button--exclude">
+              <svg viewBox="0 0 20 20" width="20" height="20">
+                <use href="./assets/sprite.svg#plus"></use></svg
+              >Исключить продукты
+            </button>
+            <button id="closeModalBtn" class="button">
+              Cкрыть рекомендации по питанию
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
