@@ -3,3 +3,11 @@
   align-self: center;
   border-radius: var(--border-radius);
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

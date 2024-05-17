@@ -4,7 +4,7 @@
   --text-color-light: #ffffff;
   --background-color: #ffffff;
   --secondary-color: #bd2b98;
-  --secondary-color-opacity-01: rgba(189, 43, 152, 0.1);
+  --secondary-color-opacity-1: rgba(189, 43, 152, 0.1);
   --secondary-color-opacity-05: rgba(189, 43, 152, 0.05);
   --gradient: #f06163 0%, #bd2b98 60%, #6034a8 88%;
   --font-size: 16px;

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5em;
-  border: solid 2px var(--secondary-color-opacity-01);
+  border: solid 2px var(--secondary-color-opacity-1);
   border-radius: var(--border-radius-button);
   padding-left: 25px;
   padding-right: 25px;

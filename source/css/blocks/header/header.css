@@ -15,11 +15,9 @@
   color: var(--text-color-light);
   display: flex;
   justify-content: center;
-
 }
 
 .header__content {
-  width: 67%;
   align-self: center;
 }
 
@@ -29,17 +27,39 @@
   color: var(--text-color-light);
   font-size: 14px;
 
+  svg {
+    flex-shrink: 0;
+  }
+
   p {
     padding: 0;
     margin: 0;
     margin-left: 10px;
+    text-align: left;
   }
 }
 
 .header__logo-help {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 20px;
+  gap: 10%;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-bottom: 10px;
+  }
+  .header__help {
+    font-size: 12px;
+  }
+
+  .header__wrapper {
+    padding-top: 20px;
+  }
+  .header__logo-help {
+    padding-bottom: 10px;
+  }
 }

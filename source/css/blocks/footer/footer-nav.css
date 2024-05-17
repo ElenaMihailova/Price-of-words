@@ -11,7 +11,7 @@
 
 .footer-nav__item {
   flex: 1;
-  border-right: 2px solid var(--secondary-color-opacity-01);
+  border-right: 2px solid var(--secondary-color-opacity-1);
 }
 
 .footer-nav__item:last-child {
