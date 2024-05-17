@@ -119,3 +119,31 @@
     justify-content: center;
   }
 }
+
+.button--cart {
+  width: 106px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: auto;
+  font-size: 12px;
+  font-weight: 800;
+  gap: 5px;
+  position: fixed;
+  z-index: 2;
+  bottom: 3%;
+  right: 3%;
+
+  svg {
+    fill: transparent;
+    stroke: var(--text-color-light);
+  }
+}
+
+@media (max-width: 768px) {
+  .button--cart {
+    bottom: 7%;
+  }
+}
