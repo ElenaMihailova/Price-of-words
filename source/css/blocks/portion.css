@@ -41,3 +41,9 @@
   width: 283px;
   flex-shrink: 0;
 }
+
+@media (max-width: 768px) {
+  .portion {
+    gap: 7px;
+  }
+}

@@ -21,6 +21,7 @@
 
 .card__list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
@@ -74,4 +75,22 @@
   font-size: 25px;
   font-weight: bold;
   color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .card__list li {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .card__compound {
+    margin-top: 15px;
+    padding: 10px;
+  }
+  .card__compound li {
+    font-size: 13px;
+  }
+  .card__compound span {
+    font-size: 20px;
+
+  }
 }

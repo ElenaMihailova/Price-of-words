@@ -11,3 +11,11 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .recipe__card {
+    padding: 20px;
+  }
+  .recipe__title {
+    margin-bottom: 10px;
+  }
+}

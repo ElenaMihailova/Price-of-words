@@ -12,3 +12,10 @@
   flex: 1;
 }
 
+@media (max-width: 768px) {
+  .options {
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

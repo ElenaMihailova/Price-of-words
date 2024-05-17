@@ -4,3 +4,9 @@
   padding: 28px;
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 768px) {
+  .filter {
+    padding: 20px;
+  }
+}

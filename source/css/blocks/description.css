@@ -52,3 +52,9 @@
 .description__list li span:first-child {
   margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+  .description {
+    padding-top: 15px;
+  }
+}

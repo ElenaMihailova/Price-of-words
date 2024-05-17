@@ -112,3 +112,10 @@
   transform: scale(1.2);
   fill: var(--secondary-color);
 }
+
+@media (max-width: 768px) {
+  .button--transparent {
+    max-width: 100%;
+    justify-content: center;
+  }
+}
