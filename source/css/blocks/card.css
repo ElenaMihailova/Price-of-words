@@ -31,36 +31,6 @@
   }
 }
 
-.card__favorite {
-  display: flex;
-  align-items: center;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  color: var(--secondary-color);
-  font-size: 15px;
-  font-weight: 500;
-  font-family: var(--font-family);
-  background-color: var(--secondary-color-opacity-05);
-  cursor: pointer;
-
-  svg {
-    stroke: var(--secondary-color);
-    fill: transparent;
-    margin-right: 10px;
-    transition: transform 0.3s;
-  }
-}
-
-.card__favorite:hover svg {
-  transform: scale(1.2);
-}
-
-.card__favorite--active svg {
-  transform: scale(1.2);
-  fill: var(--secondary-color);
-}
-
 .card__video {
   position: relative;
   width: 100%;

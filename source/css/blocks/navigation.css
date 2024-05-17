@@ -3,9 +3,8 @@
 }
 
 .navigation__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
 }
 
 .navigation__item {
