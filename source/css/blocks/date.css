@@ -1,0 +1,18 @@
+.date {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.date__number {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  display: block;
+  color: var(--text-color-light);
+  text-align: center;
+}
+
+.date__month {
+  color: var(--secondary-color);
+}

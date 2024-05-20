@@ -146,76 +146,106 @@
       <main class="main">
         <section class="wrapper">
           <div class="slogan">
-            <h3 class="title title--h3"> Моя цена слова:</h3>
+            <h3 class="title title--h3">Моя цена слова:</h3>
             <p class="title title--color">Ничего не сделаю</p>
           </div>
         </section>
 
         <section class="wrapper info">
-          <div class="info__goal">
+          <div class="info__container">
             <h3 class="title title--h3">Моя цель:</h3>
             <p class="title title--color">сохранить 100 балов</p>
             <progress class="progress" value="10" max="100"></progress>
           </div>
 
           <hr class="line" />
-          <div>
+          <div class="info__container">
             <h2 class="title title--h2">График взвешиваний</h2>
             <p>Old block</p>
-            <p class="note">
-              <svg viewBox="0 0 20 20" width="20" height="20">
-                <use href="./assets/sprite.svg#info"></use>
-              </svg>
-              Всем будут видны только те взвешивания, доступ к которым Вы
-              открыли, отметив их галочкой. Остальные же будут видны только Вам
-              и Вашему куратору.
-            </p>
-            <button class="button" type="button">
-              Ввести новые параметры
-              <span>(вес, рос, возраст, активность и цель)</span>
-            </button>
+            <div class="info__button">
+              <p class="note">
+                <svg viewBox="0 0 20 20" width="20" height="20">
+                  <use href="./assets/sprite.svg#info"></use>
+                </svg>
+                Всем будут видны только те взвешивания, доступ к которым Вы
+                открыли, отметив их галочкой. Остальные же будут видны только
+                Вам и Вашему куратору.
+              </p>
+              <button class="button button--params" type="button">
+                Ввести новые параметры
+                <span>(вес, рос, возраст, активность и цель)</span>
+              </button>
+            </div>
           </div>
 
           <hr class="line" />
-          <div>
+          <div class="info__container">
             <h2 class="title title--h2">История замеров</h2>
-            <dl>
-              <dt>Плечо правое:</dt>
-              <dd>55.00 см.</dd>
-              <dt>Плечо правое:</dt>
-              <dd>55.00 см.</dd>
-              <dt>Плечо правое:</dt>
-              <dd>55.00 см.</dd>
-              <dt>Плечо правое:</dt>
-              <dd>55.00 см.</dd>
-              <dt>Плечо правое:</dt>
-              <dd>55.00 см.</dd>
-              <dt>Плечо правое:</dt>
-              <dd>55.00 см.</dd>
-              <dt>Плечо правое:</dt>
-              <dd>55.00 см.</dd>
-            </dl>
-            <p class="note">
-              <svg viewBox="0 0 20 20" width="20" height="20">
-                <use href="./assets/sprite.svg#info"></use>
-              </svg>
-              Всем будут видны только те замеры, доступ к которым Вы открыли,
-              отметив их галочкой. Остальные же будут видны только Вам и Вашему
-              куратору.
-            </p>
-            <button class="button" type="button">
-              Ввести новые параметры
-              <span>(вес, рос, возраст, активность и цель)</span>
-            </button>
+            <div class="info__wrap">
+              <div class="info__date date">
+                <p class="date__number">14</p>
+                <p class="date__month">мая</p>
+              </div>
+
+              <ul class="parameters">
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+                <li>
+                  Плечо правое:
+                  <span>55.00 см.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="info__button">
+              <p class="note">
+                <svg viewBox="0 0 20 20" width="20" height="20">
+                  <use href="./assets/sprite.svg#info"></use>
+                </svg>
+                Всем будут видны только те замеры, доступ к которым Вы открыли,
+                отметив их галочкой. Остальные же будут видны только Вам и
+                Вашему куратору.
+              </p>
+              <button class="button button--params" type="button">
+                Ввести новые параметры
+                <span>(вес, рос, возраст, активность и цель)</span>
+              </button>
+            </div>
           </div>
         </section>
 
-        <section class="wrapper">
+        <section class="wrapper menu">
           <h2 class="title title--h2">Поток #8</h2>
           <h2 class="title title--h2">Отчеты</h2>
-          <ul>
+          <ul class="menu__list">
             <li>
-              <h3>14 мая, Завтрак</h3>
+              <h3 class="title title--card">14 мая, Завтрак</h3>
               <button
                 class="button button--favorite"
                 name="favorite"
@@ -226,7 +256,7 @@
                 </svg>
                 0
               </button>
-              <div>
+              <div class="menu__image">
                 <img
                   src="./assets/meal.jpeg"
                   alt="Food"

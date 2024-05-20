@@ -1,10 +1,28 @@
 .info {
   box-shadow: var(--box-shadow);
-  background-color: aqua;
   padding: 28px;
 }
 
-.info__goal {
+.info__container {
  display: flex;
  flex-direction: column;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ gap: 20px;
+}
+
+.info__button {
+  display: flex;
+  gap: 20px;
+}
+
+.info__wrap {
+  display: flex;
+  gap: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.info__date {
+  flex-shrink: 0;
 }
