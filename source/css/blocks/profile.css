@@ -1,9 +1,19 @@
 .profile__name {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
 
-  align-items: center;
-  justify-content: center;
+.profile__name .title {
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.profile__name .follow {
+  margin-top: 20px;
+  align-self: flex-start;
 }
 
 .profile__photo {
@@ -33,4 +43,20 @@
 
 .profile__icon {
   fill: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color-opacity-05);
+  border-radius: var(--border-radius-button);
+  margin-top: 5px;
+}
+
+.profile__link {
+  width: 100%;
+  text-align: left;
 }

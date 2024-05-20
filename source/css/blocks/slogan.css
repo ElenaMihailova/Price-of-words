@@ -1,0 +1,12 @@
+.slogan {
+  background-color: var(--selago-color);
+  padding: 28px;
+  box-shadow: var(--box-shadow);
+  display: block;
+  text-align: center;
+  border-radius: var(--border-radius);
+}
+
+.slogan .title--h2 {
+  color: var(--secondary-color);
+}

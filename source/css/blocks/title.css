@@ -1,5 +1,4 @@
 .title {
-
 }
 
 .title--h2 {
@@ -12,4 +11,17 @@
   .title--h2 {
     margin-bottom: 10px;
   }
+}
+
+.title--h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title--color {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--secondary-color);
 }
