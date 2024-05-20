@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Profile page project Price of words</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__content wrapper">
+            <div class="header__logo-help">
+              <div class="logo">
+                <a href="/index.html" class="logo__link">
+                  <img src="./assets/logo.png" alt="Logo" />
+                </a>
+              </div>
+              <a href="/" class="header__help">
+                <svg viewBox="0 0 20 20" width="20" height="20">
+                  <use href="./assets/sprite.svg#ask"></use>
+                </svg>
+                <p>Часто задаваемые вопросы</p>
+              </a>
+            </div>
+
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a class="navigation__link" href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#message"></use>
+                    </svg>
+                    <p>Сообщения</p>
+                  </a>
+                </li>
+                <li class="navigation__item navigation__item--active">
+                  <a class="navigation__link" href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#water"></use>
+                    </svg>
+                    <p>Вода</p>
+                  </a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#apple"></use>
+                    </svg>
+                    <p>Питание</p>
+                  </a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#report"></use>
+                    </svg>
+                    <p>Отчеты</p>
+                  </a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#workout"></use>
+                    </svg>
+                    <p>Тренировки</p>
+                  </a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#setting"></use>
+                    </svg>
+                    <p>Настройки</p>
+                  </a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="/">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                      <use href="./assets/sprite.svg#rules"></use>
+                    </svg>
+                    <p>Правила</p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="user-info user-info--profile wrapper profile">
+          <div class="profile__name">
+            <div class="profile__photo">
+              <div class="profile__image">
+                <!-- <img id="uploadedImage" src="" alt="Uploaded Photo" /> -->
+                <svg viewBox="0 0 66 66" width="66" height="66">
+                  <use href="./assets/sprite.svg#photo"></use>
+                </svg>
+              </div>
+              <button
+                class="button button--image"
+                onclick="uploadPhoto()"
+                type="submit"
+              >
+                Загрузить фото
+              </button>
+            </div>
+
+            <h2 class="title title--h2">John Doe</h2>
+            <ul class="">
+              <li>
+                <span>33</span>
+                Подписчики
+              </li>
+              <li>
+                <span>16</span>
+                Подписки
+              </li>
+            </ul>
+          </div>
+
+          <hr class="line" />
+          <div>
+            <p>
+              Ссылка на Вашу персональную страницу, для размещения ее в
+              социальных сетях:
+            </p>
+            <div class="profile__icon">
+              <p>https://lk.cena-slova.com/pv/ade-e36c</p>
+              <button class="button button--svg" type="button">
+                <svg viewBox="0 0 20 20" width="20" height="20">
+                  <use href="./assets/sprite.svg#copy"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="wrapper">
+          <div>
+            <p>Моя цена слова:</p>
+            <p>Ничего не сделаю</p>
+          </div>
+        </section>
+
+        <section class="wrapper">
+          <div>
+            <p>Моя цель:</p>
+            <p>сохранить 100 балов</p>
+            <progress value="10" max="100"></progress>
+          </div>
+
+          <hr class="line" />
+          <div>
+            <h2 class="title title--h2">График взвешиваний</h2>
+            <p>Old block</p>
+            <p class="note">
+              <svg viewBox="0 0 20 20" width="20" height="20">
+                <use href="./assets/sprite.svg#info"></use>
+              </svg>
+              Всем будут видны только те взвешивания, доступ к которым Вы
+              открыли, отметив их галочкой. Остальные же будут видны только Вам
+              и Вашему куратору.
+            </p>
+            <button class="button" type="button">
+              Ввести новые параметры
+              <span>(вес, рос, возраст, активность и цель)</span>
+            </button>
+          </div>
+
+          <hr class="line" />
+          <div>
+            <h2 class="title title--h2">История замеров</h2>
+            <dl>
+              <dt>Плечо правое:</dt>
+              <dd>55.00 см.</dd>
+              <dt>Плечо правое:</dt>
+              <dd>55.00 см.</dd>
+              <dt>Плечо правое:</dt>
+              <dd>55.00 см.</dd>
+              <dt>Плечо правое:</dt>
+              <dd>55.00 см.</dd>
+              <dt>Плечо правое:</dt>
+              <dd>55.00 см.</dd>
+              <dt>Плечо правое:</dt>
+              <dd>55.00 см.</dd>
+              <dt>Плечо правое:</dt>
+              <dd>55.00 см.</dd>
+            </dl>
+            <p class="note">
+              <svg viewBox="0 0 20 20" width="20" height="20">
+                <use href="./assets/sprite.svg#info"></use>
+              </svg>
+              Всем будут видны только те замеры, доступ к которым Вы открыли,
+              отметив их галочкой. Остальные же будут видны только Вам и Вашему
+              куратору.
+            </p>
+            <button class="button" type="button">
+              Ввести новые параметры
+              <span>(вес, рос, возраст, активность и цель)</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="wrapper">
+          <h2 class="title title--h2">Поток #8</h2>
+          <h2 class="title title--h2">Отчеты</h2>
+          <ul>
+            <li>
+              <h3>14 мая, Завтрак</h3>
+              <button
+                class="button button--favorite"
+                name="favorite"
+                type="button"
+              >
+                <svg width="20" height="20">
+                  <use href="./assets/sprite.svg#icon-heart"></use>
+                </svg>
+                0
+              </button>
+              <div>
+                <img
+                  src="./assets/meal.jpeg"
+                  alt="Food"
+                  width="414"
+                  height="313"
+                />
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer wrapper">
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a
+                class="footer-nav__link"
+                href="/"
+                aria-label="Написать сообщение"
+              >
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#table"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-nav__item">
+              <a
+                class="footer-nav__link"
+                href="/"
+                aria-label="Вернуться к началу"
+              >
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#home"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-nav__item">
+              <a
+                class="footer-nav__link"
+                href="/"
+                aria-label="Отчеты всех, на кого я подписан"
+              >
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#user"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-nav__item">
+              <a
+                class="footer-nav__link"
+                href="/"
+                aria-label="Отчеты участников марафона"
+              >
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <use href="./assets/sprite.svg#partners"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

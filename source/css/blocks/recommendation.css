@@ -3,15 +3,6 @@
   padding: 20px;
 }
 
-.recommendation hr {
-  border: none;
-  height: 2px;
-  background-color: var(--secondary-color-opacity-05);
-  width: 100%;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
 .recommendation p {
   font-size: 16px;
   line-height: 26px;
@@ -46,10 +37,18 @@
 .recommendation__wrap {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: space-between;
 }
 
 .recommendation .button {
-  max-width: fit-content;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .recommendation__wrap {
+    flex-direction: column;
+  }
+
 }

@@ -93,7 +93,7 @@
   font-size: 15px;
   font-weight: 500;
   font-family: var(--font-family);
-  background-color: var(--secondary-color-opacity-05);
+  background: var(--secondary-color-opacity-05);
   cursor: pointer;
 
   svg {
@@ -102,6 +102,10 @@
     margin-right: 10px;
     transition: transform 0.3s;
   }
+}
+
+.button--favorite:hover {
+  background: transparent;
 }
 
 .button--favorite:hover svg {
@@ -146,4 +150,23 @@
   .button--cart {
     bottom: 7%;
   }
+
+  .button--exclude {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.button--image {
+  width: 108px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.button--svg {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 10px;
 }

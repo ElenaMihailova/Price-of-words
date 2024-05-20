@@ -292,4 +292,22 @@
 <path d="M3 12L21 12" stroke="#BD2B98" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </symbol>
 
+  <symbol id="copy" viewBox="0 0 20 20">
+<path d="M11.6666 3.74992V3.74992C11.6666 2.13909 10.3608 0.833252 8.74996 0.833252H4.66663C3.00977 0.833252 1.66663 2.1764 1.66663 3.83325V9.64278C1.66663 11.2207 2.94581 12.4999 4.52377 12.4999V12.4999" stroke="#BD2B98" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="8.33337" y="7.5" width="10" height="11.6667" rx="3" stroke="#BD2B98" stroke-width="1.5"/>
+  </symbol>
+
+  <symbol id="photo" viewBox="0 0 66 66">
+  <mask id="mask0_62_280" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="66" height="66">
+<path d="M0 7.62939e-06H66V66H0V7.62939e-06Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_62_280)">
+<path d="M33 35.5781C27.3139 35.5781 22.6875 30.9517 22.6875 25.2656C22.6875 19.5796 27.3139 14.9531 33 14.9531C38.6861 14.9531 43.3125 19.5796 43.3125 25.2656C43.3125 30.9517 38.6861 35.5781 33 35.5781Z" stroke="#BD2B98" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.7479 58.2617C13.7492 58.245 13.7505 58.2282 13.7531 58.2114C14.6877 48.4043 22.9478 40.7343 33.0001 40.7343C43.0522 40.7343 51.3111 48.403 52.2484 58.2102" stroke="#BD2B98" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58.0078 11.8594C58.0078 12.5713 57.4306 13.1484 56.7187 13.1484C56.0069 13.1484 55.4297 12.5713 55.4297 11.8594C55.4297 11.1474 56.0069 10.5703 56.7187 10.5703C57.4306 10.5703 58.0078 11.1474 58.0078 11.8594Z" fill="#BD2B98"/>
+<path d="M60.1246 16.5526C63.0354 21.3465 64.7109 26.9756 64.7109 33C64.7109 43.2854 59.8267 52.4197 52.2483 58.2102V58.2115C46.9128 62.2901 40.242 64.7109 33 64.7109C25.7593 64.7109 19.0884 62.2901 13.7531 58.2115C6.17461 52.421 1.28906 43.2867 1.28906 33C1.28906 15.4739 15.4713 1.28906 33 1.28906C40.331 1.28906 47.0775 3.77051 52.4456 7.94037" stroke="#BD2B98" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+  </symbol>
+
 </svg>

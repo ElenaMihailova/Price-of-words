@@ -1,0 +1,36 @@
+.profile__name {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__photo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__image {
+  width: 108px;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+  background-color: var(--selago-color);
+}
+
+.profile__image svg {
+  width: 67px;
+  height: 67px;
+  object-fit: cover;
+  fill: none;
+}
+
+.profile__icon {
+  fill: none;
+}

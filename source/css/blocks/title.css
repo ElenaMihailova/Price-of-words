@@ -1,0 +1,15 @@
+.title {
+
+}
+
+.title--h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .title--h2 {
+    margin-bottom: 10px;
+  }
+}
